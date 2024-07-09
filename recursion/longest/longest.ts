@@ -7,7 +7,7 @@ function longest(words: LLNodeStr | null): number {
   if (words === null) return 0;
 
 
-  return Math.max(words.val.length, longest(words.next))
+  return Math.max(words.val.length, longest(words.next));
 }
 
 export { longest };
